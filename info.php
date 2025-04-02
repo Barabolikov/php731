@@ -40,6 +40,8 @@
 
             if (isset($_POST['button1'])) {
                 echo ("Натиснута кнопка 1");
+                header("Location: http://php731.local/edit.php/?id=".urlencode($id));
+                exit;
             } elseif (isset($_POST['button2'])) {
 
                 $sql = "DELETE FROM tovar WHERE id=".$id;

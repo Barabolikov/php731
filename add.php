@@ -18,7 +18,7 @@
 <div class="row rb container">
     <div class="col-9 class="rd">
         <h3>Додавання товару</h3>
-        <form action="create.php" method="get">
+        <form action="create.php" method="get" enctype="multipart/form-data">
             <label class="form-control no-bord">Назва товару</label>
             <input class="form-control" type="text" name="name" placeholder="Назва">
             <label class="form-control no-bord">Опис товару</label>
