@@ -23,7 +23,7 @@ $row = $result->fetch_assoc();
 <div class="row rb container">
     <div class="col-9 class="rd">
     <h3>Редагування товару</h3>
-    <form action="/update.php" method="get">
+    <form action="/update.php" method="post" enctype="multipart/form-data">
         <input type="hidden" name="id" value="<?php echo $id?>">
         <label class="form-control no-bord">Назва товару</label>
         <input class="form-control" type="text" name="name" value="<?php echo $row['name']?>">

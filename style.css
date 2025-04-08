@@ -60,6 +60,7 @@ th {
     margin-top: 0;
 }
 .tovar {
+    height: 500px;
     text-align: center;
     float: left;
     width: 30%;

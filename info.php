@@ -47,7 +47,8 @@
                 $sql = "DELETE FROM tovar WHERE id=".$id;
                 echo ($sql);
                 $result=$conn->query($sql);
-
+                header("Location: http://php731.local");
+                exit;
             }
 
     $conn->close();
